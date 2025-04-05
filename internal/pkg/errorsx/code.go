@@ -23,4 +23,18 @@ var (
 		Reason:  "NotFound",
 		Message: "Resource not found.",
 	}
+
+	// ErrDBRead 表示资源未找到.
+	ErrDBRead = &ErrorX{
+		Code:    http.StatusInternalServerError,
+		Reason:  "InternalError.DBRead",
+		Message: "Database read failure.",
+	}
+
+	// ErrDBWrite 表示数据库写入失败.
+	ErrDBWrite = &ErrorX{
+		Code:    http.StatusInternalServerError,
+		Reason:  "InternalError.DBWrite",
+		Message: "Database write failure.",
+	}
 )
