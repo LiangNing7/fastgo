@@ -37,4 +37,18 @@ var (
 		Reason:  "InternalError.DBWrite",
 		Message: "Database write failure.",
 	}
+
+	// ErrBind 表示请求体绑定错误.
+	ErrBind = &ErrorX{
+		Code:    http.StatusBadRequest,
+		Reason:  "BindError",
+		Message: "Error occurred while binding the request body to the struct.",
+	}
+
+	// ErrInvalidArgument 表示参数验证失败.
+	ErrInvalidArgument = &ErrorX{
+		Code:    http.StatusBadRequest,
+		Reason:  "ErrInvalidArgument",
+		Message: "Argument verification failed.",
+	}
 )
