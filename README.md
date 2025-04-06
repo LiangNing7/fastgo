@@ -11,7 +11,7 @@
 ```bash
 $ mkdir -p  $HOME/golang/src/github.com/LiangNing7/
 $ cd $HOME/golang/src/github.com/LiangNing7/
-$ git clone https://github.com/LiangNing7/fastgo
+$ git clone https:/github.com/LiangNing7/fastgo
 $ cd fastgo/
 $ ./build.sh
 $ _output/fg-apiserver -c configs/fg-apiserver.yaml

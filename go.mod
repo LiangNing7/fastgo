@@ -3,7 +3,6 @@ module github.com/LiangNing7/fastgo
 go 1.24.0
 
 require (
-	github.com/LiangNing7/goutil v0.0.0-20250405043327-57a763bc7de2
 	github.com/gin-gonic/gin v1.10.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/google/uuid v1.6.0
